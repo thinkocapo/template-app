@@ -12,19 +12,13 @@ class LandingPage extends React.Component {
     //   }
 
     render() {
-        console.log("LANDING PAGE INDE X********88")
         const { children } = this.props
         return (
-            <div>
-                This is the landing page:
-                {children}
+            <div className="container top-it">
+                I AM CONTAINER
             </div>
           )
     }
 }
-// const LandingPage = ({ author, title }) => (
-//   <div>This is the landing page:
-//   </div>
-// )
 
 export default LandingPage

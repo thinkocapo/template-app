@@ -1,27 +1,39 @@
-.wc-nav {
-    background: white;
+// makes navbar taller and keeps its nav links centered vertically
+.col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:700;
+}
 
-    border-width: 4px;
+.nav-style {
     border-style: solid;
+    border-radius: 3px;
     border-color: black;
-    border-radius: 5px;
-
-    position: fixed;
-    top: 0;
-    overflow: hidden;
-    width: 100%;
-    // border-top: 0;
+    border-width: 5px;
 }
 
-.wc-black {
-    color: black;
+.logo-size {
+    // font-size: 26px;
+    // position: absolute;
 }
 
-.wc-title {
-    color: black;
-    font-size: 18px;
-}
+// already worked without this...
+// .container {
+//     display: flex;
+// }
 
-.wc-vertical-center {
-    align-self: center;
-}
+// .container > li {
+//     flex: 1;
+// }
+
+
+// @media all and (max-width: 600px) {
+  
+//     .container {
+//       flex-wrap: wrap;
+//     }
+    
+//     .container > li {
+//       flex-basis: 50%;
+//     }
+//   }

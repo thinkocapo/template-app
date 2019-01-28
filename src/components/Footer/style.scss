@@ -21,15 +21,25 @@
 }
 
 /*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+// .footer {
+//   height: 100px;
+//   // position: fixed;
+//   left: 0;
+//   bottom: 0;
+//   width: 100%;
+//   background-color: white;
+//   color: white;
+//   text-align: center;
+// }
+
+
 .footer {
-  height: 100px;
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: white;
-  color: white;
-  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  background-color: grey;
 }
 
 .wc-footer-contact-me {

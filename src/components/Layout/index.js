@@ -24,7 +24,7 @@ class Layout extends React.Component {
     const { children } = this.props
 
     return (
-      <div>
+      <div className="blah">
         <Navi title={siteMetadata.title} {...this.props} />
 
           {children}

@@ -15,8 +15,8 @@ class LandingPage extends React.Component {
         const { children } = this.props
         return (
             <div className="container top-it">
-                <div class="row">
-                    <div class="col-xs-12">
+                <div className="row">
+                    <div className="col-xs-12">
                         <u id="uey">
                             &lt;LandingPage.Text&gt;
                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 

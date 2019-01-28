@@ -3,6 +3,18 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 22px;
+    // color: white;
+}
+
+.col-logo {
+    // remove these 3...and will float left during Media Qery
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
 }
 
 .nav-style {
@@ -17,6 +29,67 @@
     // position: absolute;
 }
 
+.nav-link {
+    color: white !important;
+}
+
+.one {
+    order: 1;
+}
+.two {
+    order: 2;
+}
+.three {
+    order: 3;
+}
+.four {
+    order: 4;
+}
+.five {
+    order: 5;
+}
+
+@media (max-width: 600px) {
+    .col { 
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 12px;
+
+        // float: none;
+        min-width: 100%;
+    }
+
+    .col-logo {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 12px;
+
+        float: none;
+    }
+
+    .one {
+        order: 2;
+    }
+    .two {
+        order: 3;
+    }
+    .three {
+        order: 1;
+    }
+    .four {
+        order: 4;
+    }
+    .five {
+        order: 5;
+    }
+}
+
+
+
+
+
+
+
 // already worked without this...
 // .container {
 //     display: flex;
@@ -27,13 +100,20 @@
 // }
 
 
-@media all and (max-width: 600px) {
+// @media all and (max-width: 600px) {
   
-    .container {
-      flex-wrap: wrap;
-    }
+//     .container {
+//       flex-wrap: wrap;
+//     }
     
-    .container > li {
-      flex-basis: 50%;
-    }
-  }
+//     .container > li {
+//       flex-basis: 50%;
+//     }
+//   }
+
+// allows Menu hamburger button to function
+// @media (max-width: 2000px) {
+//     .navbar-collapse.collapse.in { 
+//         display: block!important;
+//     }
+// }

@@ -9,7 +9,7 @@ class Navi extends React.Component {
     return (
 
       <nav>
-        <div class="fixed-top container-fluid">
+        <div class="fixed-top container-fluid nav-style">
           <div class="row text-center">
             <div class="col one">
               Home

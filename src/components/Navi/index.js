@@ -9,21 +9,21 @@ class Navi extends React.Component {
     return (
 
       // <nav>
-        <div class="fixed-top container-fluid nav-style">
-          <div class="row text-center">
-            <div class="col one">
+        <div className="fixed-top container-fluid nav-style">
+          <div className="row text-center">
+            <div className="col one">
               Page1
             </div>
-            <div class="col two">
+            <div className="col two">
               Page2
             </div>
-            <div class="col-logo three">
-              <span class="logo-size">TITLE</span>
+            <div className="col-logo three">
+              <span className="logo-size">TITLE</span>
             </div>
-            <div class="col four">
+            <div className="col four">
               Page3
             </div>
-            <div class="col five">
+            <div className="col five">
               Page4
             </div>
           </div>

@@ -1,5 +1,7 @@
 .top-it {
     padding-top:110px;
+    min-height: 100%;
+    padding-bottom: 30px;
 }
 
 .body-fit {
@@ -10,6 +12,10 @@
     background-color: white;
 
     overflow: hidden;
+
+    min-height: 100%;
+
+    // margin-bottom: 11px;
 
 }
 

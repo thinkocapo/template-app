@@ -8,7 +8,6 @@ class Navi extends React.Component {
     
     return (
 
-      // <nav>
         <div className="fixed-top container-fluid nav-style">
           <div className="row text-center">
             <div className="col one">
@@ -28,7 +27,6 @@ class Navi extends React.Component {
             </div>
           </div>
         </div>
-      // </nav> 
      
     )
   }

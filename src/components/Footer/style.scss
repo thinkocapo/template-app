@@ -17,6 +17,8 @@
   position: relative; // fixed, absolute doesn't work well...
   bottom: 0;
   width: 100%;
+  // so overlaps with body
+  margin-top: -5px;
 }
 
 .wc-footer-text {

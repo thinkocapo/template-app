@@ -7,28 +7,32 @@ class Navi extends React.Component {
     const { location, title } = this.props
     return (
 
-      // removed class 'navbar' so now its sticky.
-      <nav className="navbar-expand wc-nav">
-        <div className="container">
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul id="menu-main-nav" className="navbar-nav nav-fill w-100">
-              <li id="menu-item-42" className="nav-item  menu-item-42 wc-vertical-center">
-                <a href="XXX" className="nav-link wc-black">&lt;Navlink_1&gt;</a></li>
-              <li id="menu-item-963" className="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-963  wc-vertical-center">
-                <a href="XXX" className="nav-link wc-black">&lt;Navlink_2&gt;</a></li>
-                            
-              <li id="menu-item-40" className="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40 wc-vertical-center">
-                <a href="XXX" className="nav-link wc-title">&lt;Site_Title&gt;</a>
-              </li>
-
-              <li id="menu-item-40" className="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40 wc-vertical-center">
-                <a href="XXX" className="nav-link wc-black">&lt;Navlink_3&gt;</a></li>
-              <li id="menu-item-42" className="nav-item  menu-item-42 wc-vertical-center">
-                <a href="XXX" className="nav-link wc-black">&lt;Navlink_4&gt;</a></li>
-            </ul>
-          </div>
-        </div>
+      <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">Fixed top</a>
       </nav>
+
+      // removed class 'navbar' so now its sticky.
+      // <nav className="navbar-expand wc-nav">
+      //   <div className="container">
+      //     <div className="collapse navbar-collapse" id="navbarNav">
+      //       <ul id="menu-main-nav" className="navbar-nav nav-fill w-100">
+      //         <li id="menu-item-42" className="nav-item  menu-item-42 wc-vertical-center">
+      //           <a href="XXX" className="nav-link wc-black">&lt;Navlink_1&gt;</a></li>
+      //         <li id="menu-item-963" className="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-963  wc-vertical-center">
+      //           <a href="XXX" className="nav-link wc-black">&lt;Navlink_2&gt;</a></li>
+                            
+      //         <li id="menu-item-40" className="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40 wc-vertical-center">
+      //           <a href="XXX" className="nav-link wc-title">&lt;Site_Title&gt;</a>
+      //         </li>
+
+      //         <li id="menu-item-40" className="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-40 wc-vertical-center">
+      //           <a href="XXX" className="nav-link wc-black">&lt;Navlink_3&gt;</a></li>
+      //         <li id="menu-item-42" className="nav-item  menu-item-42 wc-vertical-center">
+      //           <a href="XXX" className="nav-link wc-black">&lt;Navlink_4&gt;</a></li>
+      //       </ul>
+      //     </div>
+      //   </div>
+      // </nav>
     
     )
   }

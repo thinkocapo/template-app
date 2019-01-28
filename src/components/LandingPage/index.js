@@ -14,6 +14,7 @@ class LandingPage extends React.Component {
     render() {
         const { children } = this.props
         return (
+            <div className="body-fit">
             <div className="container top-it">
                 <div className="row">
                     <div className="col-xs-12">
@@ -199,6 +200,8 @@ class LandingPage extends React.Component {
                         </u>
                     </div>
                 </div>
+            </div>
+
             </div>
           )
     }

@@ -11,9 +11,7 @@ const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
-
       <LandingPage/>
-    
     </Layout>
   )
 }

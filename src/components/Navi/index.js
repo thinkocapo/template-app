@@ -5,11 +5,6 @@ import './style.scss'
 class Navi extends React.Component {
   render() {
     const { location, title } = this.props
-            // <div className="col one">Page1</div>    
-
-          //   <div className="col-logo three">
-          //   <span className="logo-size">TITLE</span>
-          // </div>
     return (
 
         <div className="navbar-fixed-top container-fluid nav-style">
@@ -30,13 +25,9 @@ class Navi extends React.Component {
 
 export default Navi
 
-// WILL'S - GOOD
-
-
-
 
 // Can't remove SITE_TITLE from collapse Mobile Menu
-{/* <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+/*<nav className="navbar navbar-expand-lg navbar-light bg-dark">
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <a className="navbar-brand" href="#">SITE_TITLE</a>       
   <span className="navbar-toggler-icon"></span>
@@ -60,4 +51,4 @@ export default Navi
     </li>
   </ul>
 </div>
-</nav> */}
+</nav>*/

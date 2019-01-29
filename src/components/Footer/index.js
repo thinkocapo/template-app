@@ -4,7 +4,8 @@ import './style.scss'
 
 const Footer = ({ author, title }) => (
   <div className="footer-style footer-bottom">
-    <div className="container text-center">
+  {/* removed container, make easier to max size fit flush to parent */}
+    <div className="text-center expand-to-parent">
       <div className="footer-div">
         <span className="wc-footer-text">CONTACT</span>
       </div>      

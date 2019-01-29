@@ -1,7 +1,7 @@
-.fixed-top {
+.navbar-fixed-top {
     position: relative !important;
+    min-height: 8vh;
 }
-
 
 // makes navbar taller and keeps its nav links centered vertically
 .col {
@@ -29,11 +29,6 @@
     border-color: black;
     border-width: 5px;
     background-color: white;
-}
-
-.logo-size {
-    // font-size: 26px;
-    // position: absolute;
 }
 
 .nav-link {
@@ -87,11 +82,18 @@
     .five {
         order: 5;
     }
+
+    .navbar-fixed-top {
+        min-height: 0vh;
+    }
 }
 
 
 
-
+.logo-size {
+    // font-size: 26px;
+    // position: absolute;
+}
 
 
 

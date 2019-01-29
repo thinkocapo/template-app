@@ -3,9 +3,11 @@ import React from 'react'
 import './style.scss'
 
 const Footer = ({ author, title }) => (
-  <div className="wc-footer bottom-footer">
+  <div className="footer-style footer-bottom">
     <div className="container text-center">
-      <div><span className="wc-footer-text">CONTACT</span></div>      
+      <div className="footer-div">
+        <span className="wc-footer-text">CONTACT</span>
+      </div>      
     </div>
   </div>
 )

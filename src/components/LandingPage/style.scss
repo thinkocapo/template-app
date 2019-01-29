@@ -1,27 +1,20 @@
-.top-it {
+.padding-top-and-bottom {
     padding-top:110px;
     min-height: 100%;
-    padding-bottom: 30px;
-
-    // margin-top: -5px;
 }
 
-.body-fit {
+.body-container-parent {
     border-style: solid;
     border-radius: 3px;
     border-color: black;
     border-width: 5px;
     background-color: white;
-
     overflow: hidden;
-
     min-height: 100%;
+    margin-top: 1px;
+    margin-bottom: 1px;
 
-    margin-bottom: -5px;
-    padding-bottom: 2px;
-
-    // margin-top: -4px;
-
+    min-height: 84vh;
 }
 
 .tall-div {
@@ -31,5 +24,9 @@
 @media (max-width: 600px) {
     .top-it {
         padding-top:50px;
+    }
+
+    .body-container-parent {
+        min-height: 92vh;
     }
 }

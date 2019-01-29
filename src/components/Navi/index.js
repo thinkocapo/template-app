@@ -5,26 +5,18 @@ import './style.scss'
 class Navi extends React.Component {
   render() {
     const { location, title } = this.props
-    
+            // <div className="col one">Page1</div>    
     return (
 
         <div className="navbar-fixed-top container-fluid nav-style">
           <div className="row text-center">
-            <div className="col one">
-              Page1
-            </div>
-            <div className="col two">
-              Page2
-            </div>
+            <Link to="/page-1" className="col one"><div>Page1</div></Link>
+            <Link to="/page-2" className="col two"><div>Page2</div></Link> 
             <div className="col-logo three">
               <span className="logo-size">TITLE</span>
             </div>
-            <div className="col four">
-              Page3
-            </div>
-            <div className="col five">
-              Page4
-            </div>
+            <Link to="/page-3" className="col three"><div>Page3</div></Link>
+            <Link to="/Profile" className="col four"><div>Profile</div></Link> 
           </div>
         </div>
      

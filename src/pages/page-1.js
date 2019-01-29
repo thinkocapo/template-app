@@ -8,7 +8,7 @@ import Layout from 'components/Layout'
 import Meta from 'components/Meta'
 import Icon from 'components/Icon'
 
-class Profile extends React.Component {
+class Page1 extends React.Component {
   render() {
     const { location, data } = this.props
     const profile = get(data, 'profile.childImageSharp.fixed')
@@ -19,7 +19,7 @@ class Profile extends React.Component {
 
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} title="Profile" />
+        <Meta site={siteMetadata} title="Page1" />
         <div className="body-container-parent">
 
           <section className="text-center bg-dark">
@@ -63,7 +63,7 @@ class Profile extends React.Component {
   }
 }
 
-export default Profile
+export default Page1
 
 // export const query = graphql`
 //   query ProfilePageQuery {

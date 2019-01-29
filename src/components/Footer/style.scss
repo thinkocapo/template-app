@@ -11,16 +11,15 @@
 
 
 .footer-bottom {
+  // Didn't end up needing all this...
   // display: flex;
   // align-items: center;
   // position: relative; // fixed, absolute doesn't work well... relative
   // bottom: 0;
   // width: 100%;
 
-
-
-  // ?
-  // min-height: 7vh;
+  // doesn't stay consistent as you resize?
+  min-height: 8vh;
 }
 
 .footer-div {
@@ -38,18 +37,13 @@
   .wc-footer-text {
     font-size: 16px;
   }
-}
 
-// .wc-footer-contact-me {
-//   font-size: 2em;
-//   background-color: #554840;
-//   color: black;
-//   padding-left: 35px;
-//   padding-right: 35px;
-//   font-weight: 100;
-//   filter: opacity(0.7);
-//   border-style: solid;
-//   border-width: 4px;
-//   border-radius: 6px;
-//   border-color: black;
-// }
+  .footer-bottom {
+    min-height: 0vh;
+  }
+
+  .footer-div {
+    position: relative;
+    top: auto;
+  }
+}

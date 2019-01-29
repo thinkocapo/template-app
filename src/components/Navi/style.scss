@@ -1,5 +1,6 @@
-.fixed-top {
+.navbar-fixed-top {
     position: relative !important;
+    min-height: 8vh;
 }
 
 
@@ -29,11 +30,6 @@
     border-color: black;
     border-width: 5px;
     background-color: white;
-}
-
-.logo-size {
-    // font-size: 26px;
-    // position: absolute;
 }
 
 .nav-link {
@@ -87,11 +83,18 @@
     .five {
         order: 5;
     }
+
+    .navbar-fixed-top {
+        min-height: 0vh;
+    }
 }
 
 
 
-
+.logo-size {
+    // font-size: 26px;
+    // position: absolute;
+}
 
 
 

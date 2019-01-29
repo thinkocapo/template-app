@@ -8,7 +8,7 @@ class Navi extends React.Component {
     
     return (
 
-        <div className="fixed-top container-fluid nav-style">
+        <div className="navbar-fixed-top container-fluid nav-style">
           <div className="row text-center">
             <div className="col one">
               Page1

@@ -9,27 +9,24 @@
   background: white;
 }
 
-
-.footer-bottom {
-  // Didn't end up needing all this...
-  // display: flex;
-  // align-items: center;
-  // position: relative; // fixed, absolute doesn't work well... relative
-  // bottom: 0;
-  // width: 100%;
-
-  // doesn't stay consistent as you resize?
-  min-height: 8vh;
-}
-
 .footer-div {
   position: relative;
   top: 1em;
 }
 
+
+.footer-bottom {
+  // doesn't stay consistent as you resize?
+  min-height: 8vh;
+}
+
 .wc-footer-text {
-  font-size: 24px;
+  font-size: 1.25em; //24px;
   color: black;
+}
+
+.expand-to-parent {
+  min-height: inherit;
 }
 
 
@@ -47,3 +44,12 @@
     top: auto;
   }
 }
+
+
+// old footer-bottom but didn't do anything
+  // Didn't end up needing all this...
+  // display: flex;
+  // align-items: center;
+  // position: relative; // fixed, absolute doesn't work well... relative
+  // bottom: 0;
+  // width: 100%;

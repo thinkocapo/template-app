@@ -16,7 +16,7 @@ class Profile extends React.Component {
     const work2 = get(data, 'work2.childImageSharp.sizes')
     const back1 = get(data, 'back1.childImageSharp.sizes')
     const back2 = get(data, 'back2.childImageSharp.sizes')
-
+    
     return (
       <Layout location={location}>
         <Meta site={siteMetadata} title="Profile" />
@@ -162,6 +162,7 @@ class Profile extends React.Component {
 
 export default Profile
 
+/* these keys are accessible on data in this.props.data */
 export const query = graphql`
   query ProfilePageQuery {
     profile: file(name: { eq: "profile" }) {

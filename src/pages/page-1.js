@@ -20,9 +20,9 @@ class Profile extends React.Component {
     return (
       <Layout location={location}>
         <Meta site={siteMetadata} title="Profile" />
-        <div>
+        <div className="body-container-parent">
 
-          <section className="text-center">
+          <section className="text-center bg-dark">
             <div className="container">
               {/* <Img fixed={profile} className="rounded-circle" /> */}
               <h1>Page 1</h1>
@@ -39,6 +39,23 @@ class Profile extends React.Component {
               </div>
             </div>
           </section>
+
+          {/* <section className="text-center bg-light">
+          <div className="container">
+              <h1>Part 2</h1>
+              <p className="lead text-muted">other......</p>
+              <div>
+                <a
+                  ref="twButton"
+                  href="https://twitter.com/jaxx2104"
+                  className="twitter-follow-button"
+                  data-show-count="false"
+                >
+                  Follow @jaxx2104
+                </a>
+              </div>
+            </div>
+          </section> */}
 
         </div>
       </Layout>

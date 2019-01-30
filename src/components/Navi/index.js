@@ -15,7 +15,7 @@ class Navi extends React.Component {
               <span className="logo-size">TITLE</span>
             </Link>
             <Link to="/page-3" className="col three"><div>Page3</div></Link>
-            <Link to="/Profile" className="col four"><div>Profile</div></Link> 
+            <Link to="/Profile" className="col four"><div>Page4</div></Link> 
           </div>
         </div>
      

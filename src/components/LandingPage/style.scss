@@ -1,7 +1,7 @@
-.padding-top-and-bottom {
-    padding-top:110px;
-    min-height: 100%;
-}
+// .padding-top-and-bottom {
+    // padding-top:110px;
+    // min-height: 100%;
+// }
 
 .tall-div {
     height: 200px;
@@ -15,4 +15,16 @@
     .body-container-parent {
         min-height: 92vh;
     }
+}
+
+.landing-page-title {
+    font-size: 5.8rem;
+
+    @media (max-width: 600px) {
+        font-size: 2.6rem;
+    }
+}
+
+.landing-page-paragraph {
+    text-align: left;
 }

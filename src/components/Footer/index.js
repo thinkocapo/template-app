@@ -40,15 +40,36 @@ class Footer extends React.Component {
     
         <Modal show={this.state.show} onHide={this.handleClose}>
               <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                <Modal.Title>Contact Me</Modal.Title>
               </Modal.Header>
-              <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+              <Modal.Body>
+
+                <div>
+                  <form>
+                    <div>
+                      <label for="name">Name</label>
+                      <div>
+                        <input id="name" class="form-control" name="dp"></input>
+                      </div>
+                      <label for="message">Message</label>
+                      <div>
+                          <input id="message" class="form-control"></input>
+                      </div>
+                      <label for="email">Email or Phone</label>
+                      <div>
+                          <input id="email" class="form-control"></input>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                
+              </Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={this.handleClose}>
-                  Close
+                  Cancel
                 </Button>
-                <Button variant="primary" onClick={this.handleClose}>
-                  Save Changes
+                <Button variant="secondary" onClick={this.handleClose}>
+                  Submit
                 </Button>
               </Modal.Footer>
             </Modal>
@@ -60,6 +81,26 @@ class Footer extends React.Component {
 
 export default Footer
 
+
+
+/* <div class="modal-body">
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <div class="input-group">
+        <input id="name" class="form-control" name="dp"></input>
+      </div>
+      <label for="message">Message</label>
+      <div class="input-group">
+          <input id="message" class="form-control"></input>
+      </div>
+      <label for="email">Email or Phone</label>
+      <div class="input-group">
+          <input id="email" class="form-control"></input>
+      </div>
+    </div>
+  </form>
+</div> */
 
 
 ////////////////////////////////////////////////

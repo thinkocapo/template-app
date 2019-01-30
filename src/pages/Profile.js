@@ -20,7 +20,7 @@ class Profile extends React.Component {
     return (
       <Layout location={location}>
         <Meta site={siteMetadata} title="Profile" />
-        <div>
+        <div className="body-container-parent">
           <section className="text-center">
             <div className="container">
               <Img fixed={profile} className="rounded-circle" />

@@ -7,10 +7,13 @@ import Meta from 'components/Meta'
 import Layout from 'components/Layout'
 import LandingPage from 'components/LandingPage'
 
+import { siteMetadata } from '../../gatsby-config'
+
 const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
+      <Meta site={siteMetadata} />
       <LandingPage/>
     </Layout>
   )

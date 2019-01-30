@@ -19,7 +19,7 @@ class Profile extends React.Component {
     
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} title="Profile" />
+        <Meta site={siteMetadata} title="Page4" />
         <div className="body-container-parent">
           <section className="text-center">
             <div className="container">

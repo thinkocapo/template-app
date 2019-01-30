@@ -14,7 +14,7 @@ class Page3 extends React.Component {
 
     return (
       <Layout location={location}>
-        <Meta site={siteMetadata} title="Page2" />
+        <Meta site={siteMetadata} title="Page3" />
         <div className="body-container-parent">
 
           <section className="text-center bg-light">

@@ -53,7 +53,9 @@ class Footer extends React.Component {
                       </div>
                       <label for="message">Message</label>
                       <div>
-                          <input id="message" class="form-control"></input>
+                        <textarea rows="10" class="form-control" id="message" style={{resize: 'none'}}>
+                          
+                        </textarea>
                       </div>
                       <label for="email">Email or Phone</label>
                       <div>

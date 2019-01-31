@@ -10,7 +10,7 @@ import LandingPage from 'components/LandingPage'
 import { siteMetadata } from '../../gatsby-config'
 
 const BlogIndex = ({ data, location }) => {
-  const posts = get(data, 'remark.posts')
+  // const posts = get(data, 'remark.posts')
   return (
     <Layout location={location}>
       <Meta site={siteMetadata} />
@@ -31,31 +31,6 @@ export const pageQuery = graphql`
         author
         twitter
         adsense
-      }
-    }
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fixed(width: 500) {
-                  ...GatsbyImageSharpFixed_withWebp
-                }
-              }
-            }
-          }
-        }
       }
     }
   }
